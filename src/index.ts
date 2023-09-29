@@ -14,6 +14,8 @@ import {
 } from './utils'
 import { LoaderOptions } from './types'
 import type { I18nConfig, NextI18nConfig } from 'next-translate'
+import { createRequire } from 'module';
+const _require = import.meta.url ? createRequire(import.meta.url) : require;
 
 const test = /\.(tsx|ts|js|mjs|jsx)$/
 
@@ -35,7 +37,7 @@ function nextTranslate(nextConfig: NextConfig = {}): NextConfig {
     pagesInDir,
     extensionsRgx = test,
     revalidate = 0,
-  } = require(path.join(basePath, 'i18n')) as I18nConfig
+  } = _require(path.join(basePath, 'i18n')) as I18nConfig
 
   let nextConfigWithI18n: NextConfig = {
     ...nextConfig,
@@ -130,11 +132,10 @@ function nextTranslate(nextConfig: NextConfig = {}): NextConfig {
 
 function pkgDir() {
   try {
-    return (require('pkg-dir').sync() as string) || process.cwd()
+    return (_require('pkg-dir').sync() as string) || process.cwd()
   } catch (e) {
     return process.cwd()
   }
 }
 
-module.exports = nextTranslate
 export default nextTranslate

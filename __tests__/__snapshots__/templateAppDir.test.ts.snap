@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`templateAppDir should load translations in a error page pageNoExt: /about/us/error | normalizedResourcePath: app/about/us/error.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Error() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
+  if (detectedLang === "favicon.ico") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Error {...props} />;
@@ -22,8 +22,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /error\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /error",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -55,20 +55,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a error page pageNoExt: /about/us/error | normalizedResourcePath: packages/app/about/us/error.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Error() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
+  if (detectedLang === "favicon.ico") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Error {...props} />;
@@ -76,8 +76,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /error\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /error",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -109,20 +109,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a error page pageNoExt: /error | normalizedResourcePath: app/error.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Error() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
+  if (detectedLang === "favicon.ico") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Error {...props} />;
@@ -130,8 +130,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /error\\",
-    pathname: \\"/\\",
+    loaderName: "server /error",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -163,20 +163,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a error page pageNoExt: /error | normalizedResourcePath: packages/app/error.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Error() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Error {...props} />;
+  if (detectedLang === "favicon.ico") return <Error {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Error {...props} />;
@@ -184,8 +184,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /error\\",
-    pathname: \\"/\\",
+    loaderName: "server /error",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -217,20 +217,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a global-error page pageNoExt: /about/us/global-error | normalizedResourcePath: app/about/us/global-error.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function GlobalError() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
+  if (detectedLang === "favicon.ico") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <GlobalError {...props} />;
@@ -238,8 +238,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /global-error\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /global-error",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -271,20 +271,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a global-error page pageNoExt: /about/us/global-error | normalizedResourcePath: packages/app/about/us/global-error.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function GlobalError() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
+  if (detectedLang === "favicon.ico") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <GlobalError {...props} />;
@@ -292,8 +292,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /global-error\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /global-error",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -325,20 +325,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a global-error page pageNoExt: /global-error | normalizedResourcePath: app/global-error.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function GlobalError() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
+  if (detectedLang === "favicon.ico") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <GlobalError {...props} />;
@@ -346,8 +346,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /global-error\\",
-    pathname: \\"/\\",
+    loaderName: "server /global-error",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -379,20 +379,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a global-error page pageNoExt: /global-error | normalizedResourcePath: packages/app/global-error.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function GlobalError() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <GlobalError {...props} />;
+  if (detectedLang === "favicon.ico") return <GlobalError {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <GlobalError {...props} />;
@@ -400,8 +400,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /global-error\\",
-    pathname: \\"/\\",
+    loaderName: "server /global-error",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -433,20 +433,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a layout pageNoExt: /about/us/layout | normalizedResourcePath: app/about/us/layout.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Layout() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
+  if (detectedLang === "favicon.ico") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Layout {...props} />;
@@ -454,8 +454,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /layout\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /layout",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -487,20 +487,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a layout pageNoExt: /about/us/layout | normalizedResourcePath: packages/app/about/us/layout.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Layout() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
+  if (detectedLang === "favicon.ico") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Layout {...props} />;
@@ -508,8 +508,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /layout\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /layout",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -541,20 +541,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a layout pageNoExt: /layout | normalizedResourcePath: app/layout.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Layout() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
+  if (detectedLang === "favicon.ico") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Layout {...props} />;
@@ -562,8 +562,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /layout\\",
-    pathname: \\"/\\",
+    loaderName: "server /layout",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -595,20 +595,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a layout pageNoExt: /layout | normalizedResourcePath: packages/app/layout.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Layout() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Layout {...props} />;
+  if (detectedLang === "favicon.ico") return <Layout {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Layout {...props} />;
@@ -616,8 +616,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /layout\\",
-    pathname: \\"/\\",
+    loaderName: "server /layout",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -649,20 +649,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a loading page pageNoExt: /about/us/loading | normalizedResourcePath: app/about/us/loading.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Loading() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
+  if (detectedLang === "favicon.ico") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Loading {...props} />;
@@ -670,8 +670,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /loading\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /loading",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -703,20 +703,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a loading page pageNoExt: /about/us/loading | normalizedResourcePath: packages/app/about/us/loading.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Loading() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
+  if (detectedLang === "favicon.ico") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Loading {...props} />;
@@ -724,8 +724,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /loading\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /loading",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -757,20 +757,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a loading page pageNoExt: /loading | normalizedResourcePath: app/loading.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Loading() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
+  if (detectedLang === "favicon.ico") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Loading {...props} />;
@@ -778,8 +778,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /loading\\",
-    pathname: \\"/\\",
+    loaderName: "server /loading",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -811,20 +811,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a loading page pageNoExt: /loading | normalizedResourcePath: packages/app/loading.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Loading() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Loading {...props} />;
+  if (detectedLang === "favicon.ico") return <Loading {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <Loading {...props} />;
@@ -832,8 +832,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /loading\\",
-    pathname: \\"/\\",
+    loaderName: "server /loading",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -865,20 +865,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a not-found page pageNoExt: /about/us/not-found | normalizedResourcePath: app/about/us/not-found.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function NotFound() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
+  if (detectedLang === "favicon.ico") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <NotFound {...props} />;
@@ -886,8 +886,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /not-found\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /not-found",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -919,20 +919,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a not-found page pageNoExt: /about/us/not-found | normalizedResourcePath: packages/app/about/us/not-found.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function NotFound() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
+  if (detectedLang === "favicon.ico") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <NotFound {...props} />;
@@ -940,8 +940,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /not-found\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /not-found",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -973,20 +973,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a not-found page pageNoExt: /not-found | normalizedResourcePath: app/not-found.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function NotFound() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
+  if (detectedLang === "favicon.ico") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <NotFound {...props} />;
@@ -994,8 +994,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /not-found\\",
-    pathname: \\"/\\",
+    loaderName: "server /not-found",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1027,20 +1027,20 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a not-found page pageNoExt: /not-found | normalizedResourcePath: packages/app/not-found.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function NotFound() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <NotFound {...props} />;
+  if (detectedLang === "favicon.ico") return <NotFound {...props} />;
 
   if (globalThis.__NEXT_TRANSLATE__ && !detectedLang)
     return <NotFound {...props} />;
@@ -1048,8 +1048,8 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /not-found\\",
-    pathname: \\"/\\",
+    loaderName: "server /not-found",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1081,27 +1081,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-dynamic pageNoExt: /about/us/page | normalizedResourcePath: app/about/us/page.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-dynamic\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-dynamic";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /page",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1133,27 +1133,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-dynamic pageNoExt: /about/us/page | normalizedResourcePath: packages/app/about/us/page.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-dynamic\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-dynamic";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /page",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1185,27 +1185,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-dynamic pageNoExt: /page | normalizedResourcePath: app/page.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-dynamic\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-dynamic";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/\\",
+    loaderName: "server /page",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1237,27 +1237,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-dynamic pageNoExt: /page | normalizedResourcePath: packages/app/page.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-dynamic\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-dynamic";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/\\",
+    loaderName: "server /page",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1289,27 +1289,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-static pageNoExt: /about/us/page | normalizedResourcePath: app/about/us/page.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /page",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1341,27 +1341,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-static pageNoExt: /about/us/page | normalizedResourcePath: packages/app/about/us/page.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /page",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1393,27 +1393,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-static pageNoExt: /page | normalizedResourcePath: app/page.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/\\",
+    loaderName: "server /page",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1445,27 +1445,27 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page with dynamic export force-static pageNoExt: /page | normalizedResourcePath: packages/app/page.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/\\",
+    loaderName: "server /page",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1497,26 +1497,26 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page without dynamic export pageNoExt: /about/us/page | normalizedResourcePath: app/about/us/page.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /page",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1548,26 +1548,26 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page without dynamic export pageNoExt: /about/us/page | normalizedResourcePath: packages/app/about/us/page.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "server /page",
+    pathname: "/about/us/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1599,26 +1599,26 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page without dynamic export pageNoExt: /page | normalizedResourcePath: app/page.js | appFolder: app 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/\\",
+    loaderName: "server /page",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1650,26 +1650,26 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load translations in a server page without dynamic export pageNoExt: /page | normalizedResourcePath: packages/app/page.js | appFolder: app/ 1`] = `
-"import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+"import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default async function __Next_Translate_new__88d9831a00__(props) {
   const detectedLang = props.params?.lang ?? props.searchParams?.lang;
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const config = {
     ...__i18nConfig,
     locale: detectedLang ?? __i18nConfig.defaultLocale,
-    loaderName: \\"server /page\\",
-    pathname: \\"/\\",
+    loaderName: "server /page",
+    pathname: "/",
   };
 
   const { __lang, __namespaces } = await __loadNamespaces({
@@ -1701,76 +1701,76 @@ export default async function __Next_Translate_new__88d9831a00__(props) {
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in a client component with named export (already have the namespaces from the page) isClientComponent: false | pageNoExt: /component | normalizedResourcePath: app/component.js | appFolder: app 1`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in a client component with named export (already have the namespaces from the page) isClientComponent: true | pageNoExt: /component | normalizedResourcePath: app/component.js | appFolder: app 1`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in a client component with named export (already have the namespaces from the page) pageNoExt: /about/us/component | normalizedResourcePath: app/about/us/component.js | appFolder: app | isClientComponent: true 1`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in a client page ("use client" with double quotes and comment before) isClientComponent: true | pageNoExt: /about/us/page | normalizedResourcePath: app/about/us/page.js | appFolder: app 1`] = `
-"\\"use client\\";
-import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
+""use client";
+import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
 import {
   useSearchParams as __useSearchParams,
   useParams as __useParams,
-} from \\"next/navigation\\";
-import { use as __use, Suspense as __Suspense } from \\"react\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+} from "next/navigation";
+import { use as __use, Suspense as __Suspense } from "react";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
 // Some comment before
 /*
   Another comment before
 */
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default function __Next_Translate_new__88d9831a00__(props) {
   const searchParams = __useSearchParams();
   const params = __useParams();
-  const detectedLang = params.lang ?? searchParams.get(\\"lang\\");
+  const detectedLang = params.lang ?? searchParams.get("lang");
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const lang = detectedLang ?? __i18nConfig.defaultLocale;
   const config = {
     ...__i18nConfig,
     locale: lang,
-    loaderName: \\"client /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "client /page",
+    pathname: "/about/us/",
   };
 
   return (
@@ -1806,40 +1806,40 @@ function __Next_Translate__child__88d9831a00__({ promise, config, ...props }) {
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in a client page ("use client" with double quotes and comment before) isClientComponent: true | pageNoExt: /page | normalizedResourcePath: app/page.js | appFolder: app 1`] = `
-"\\"use client\\";
-import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
+""use client";
+import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
 import {
   useSearchParams as __useSearchParams,
   useParams as __useParams,
-} from \\"next/navigation\\";
-import { use as __use, Suspense as __Suspense } from \\"react\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+} from "next/navigation";
+import { use as __use, Suspense as __Suspense } from "react";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
 // Some comment before
 /*
   Another comment before
 */
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default function __Next_Translate_new__88d9831a00__(props) {
   const searchParams = __useSearchParams();
   const params = __useParams();
-  const detectedLang = params.lang ?? searchParams.get(\\"lang\\");
+  const detectedLang = params.lang ?? searchParams.get("lang");
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const lang = detectedLang ?? __i18nConfig.defaultLocale;
   const config = {
     ...__i18nConfig,
     locale: lang,
-    loaderName: \\"client /page\\",
-    pathname: \\"/\\",
+    loaderName: "client /page",
+    pathname: "/",
   };
 
   return (
@@ -1875,40 +1875,40 @@ function __Next_Translate__child__88d9831a00__({ promise, config, ...props }) {
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in a client page ("use client" with double quotes and comment before) isClientComponent: true | pageNoExt: /page | normalizedResourcePath: app/page.js | appFolder: app 2`] = `
-"\\"use client\\";
-import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
+""use client";
+import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
 import {
   useSearchParams as __useSearchParams,
   useParams as __useParams,
-} from \\"next/navigation\\";
-import { use as __use, Suspense as __Suspense } from \\"react\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
+} from "next/navigation";
+import { use as __use, Suspense as __Suspense } from "react";
+import __loadNamespaces from "next-translate/loadNamespaces";
 
 // Some comment before
 /*
   Another comment before
 */
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default function __Next_Translate_new__88d9831a00__(props) {
   const searchParams = __useSearchParams();
   const params = __useParams();
-  const detectedLang = params.lang ?? searchParams.get(\\"lang\\");
+  const detectedLang = params.lang ?? searchParams.get("lang");
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const lang = detectedLang ?? __i18nConfig.defaultLocale;
   const config = {
     ...__i18nConfig,
     locale: lang,
-    loaderName: \\"client /page\\",
-    pathname: \\"/\\",
+    loaderName: "client /page",
+    pathname: "/",
   };
 
   return (
@@ -1944,71 +1944,71 @@ function __Next_Translate__child__88d9831a00__({ promise, config, ...props }) {
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in client component (already have the namespaces from the page) isClientComponent: true | pageNoExt: /component | normalizedResourcePath: app/component.js | appFolder: app 1`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in client component (already have the namespaces from the page) isClientComponent: true | pageNoExt: /component | normalizedResourcePath: app/component.js | appFolder: app 2`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should load using an "use" client hook the translations in client component (already have the namespaces from the page) pageNoExt: /about/us/component | normalizedResourcePath: app/about/us/component.js | appFolder: app | isClientComponent: true 1`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should load using an 'use' client hook the translations in a client page ('use client' with simple quotes) isClientComponent: true | pageNoExt: /about/us/page | normalizedResourcePath: app/about/us/page.js | appFolder: app 1`] = `
-"\\"use client\\";
-import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
+""use client";
+import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
 import {
   useSearchParams as __useSearchParams,
   useParams as __useParams,
-} from \\"next/navigation\\";
-import { use as __use, Suspense as __Suspense } from \\"react\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+} from "next/navigation";
+import { use as __use, Suspense as __Suspense } from "react";
+import __loadNamespaces from "next-translate/loadNamespaces";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default function __Next_Translate_new__88d9831a00__(props) {
   const searchParams = __useSearchParams();
   const params = __useParams();
-  const detectedLang = params.lang ?? searchParams.get(\\"lang\\");
+  const detectedLang = params.lang ?? searchParams.get("lang");
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const lang = detectedLang ?? __i18nConfig.defaultLocale;
   const config = {
     ...__i18nConfig,
     locale: lang,
-    loaderName: \\"client /page\\",
-    pathname: \\"/about/us/\\",
+    loaderName: "client /page",
+    pathname: "/about/us/",
   };
 
   return (
@@ -2044,35 +2044,35 @@ function __Next_Translate__child__88d9831a00__({ promise, config, ...props }) {
 `;
 
 exports[`templateAppDir should load using an 'use' client hook the translations in a client page ('use client' with simple quotes) isClientComponent: true | pageNoExt: /page | normalizedResourcePath: app/page.js | appFolder: app 1`] = `
-"\\"use client\\";
-import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
+""use client";
+import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
 import {
   useSearchParams as __useSearchParams,
   useParams as __useParams,
-} from \\"next/navigation\\";
-import { use as __use, Suspense as __Suspense } from \\"react\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+} from "next/navigation";
+import { use as __use, Suspense as __Suspense } from "react";
+import __loadNamespaces from "next-translate/loadNamespaces";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default function __Next_Translate_new__88d9831a00__(props) {
   const searchParams = __useSearchParams();
   const params = __useParams();
-  const detectedLang = params.lang ?? searchParams.get(\\"lang\\");
+  const detectedLang = params.lang ?? searchParams.get("lang");
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const lang = detectedLang ?? __i18nConfig.defaultLocale;
   const config = {
     ...__i18nConfig,
     locale: lang,
-    loaderName: \\"client /page\\",
-    pathname: \\"/\\",
+    loaderName: "client /page",
+    pathname: "/",
   };
 
   return (
@@ -2108,35 +2108,35 @@ function __Next_Translate__child__88d9831a00__({ promise, config, ...props }) {
 `;
 
 exports[`templateAppDir should load using an 'use' client hook the translations in a client page ('use client' with simple quotes) isClientComponent: true | pageNoExt: /page | normalizedResourcePath: app/page.js | appFolder: app 2`] = `
-"\\"use client\\";
-import __i18nConfig from \\"@next-translate-root/i18n\\";
-import AppDirI18nProvider from \\"next-translate/AppDirI18nProvider\\";
+""use client";
+import __i18nConfig from "@next-translate-root/i18n";
+import AppDirI18nProvider from "next-translate/AppDirI18nProvider";
 import {
   useSearchParams as __useSearchParams,
   useParams as __useParams,
-} from \\"next/navigation\\";
-import { use as __use, Suspense as __Suspense } from \\"react\\";
-import __loadNamespaces from \\"next-translate/loadNamespaces\\";
-import useTranslation from \\"next-translate/useTranslation\\";
-export const dynamic = \\"force-static\\";
+} from "next/navigation";
+import { use as __use, Suspense as __Suspense } from "react";
+import __loadNamespaces from "next-translate/loadNamespaces";
+import useTranslation from "next-translate/useTranslation";
+export const dynamic = "force-static";
 function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 
 export default function __Next_Translate_new__88d9831a00__(props) {
   const searchParams = __useSearchParams();
   const params = __useParams();
-  const detectedLang = params.lang ?? searchParams.get(\\"lang\\");
+  const detectedLang = params.lang ?? searchParams.get("lang");
 
-  if (detectedLang === \\"favicon.ico\\") return <Page {...props} />;
+  if (detectedLang === "favicon.ico") return <Page {...props} />;
 
   const lang = detectedLang ?? __i18nConfig.defaultLocale;
   const config = {
     ...__i18nConfig,
     locale: lang,
-    loaderName: \\"client /page\\",
-    pathname: \\"/\\",
+    loaderName: "client /page",
+    pathname: "/",
   };
 
   return (
@@ -2172,21 +2172,21 @@ function __Next_Translate__child__88d9831a00__({ promise, config, ...props }) {
 `;
 
 exports[`templateAppDir should not do any transformation in a server component (already have the namespaces from the page) pageNoExt: /about/us/component | normalizedResourcePath: app/about/us/component.js | appFolder: app 1`] = `
-"import useTranslation from \\"next-translate/useTranslation\\";
+"import useTranslation from "next-translate/useTranslation";
 
 export default function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should not do any transformation in a server component (already have the namespaces from the page) pageNoExt: /component | normalizedResourcePath: app/component.js | appFolder: app 1`] = `
-"import useTranslation from \\"next-translate/useTranslation\\";
+"import useTranslation from "next-translate/useTranslation";
 
 export default function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
@@ -2197,7 +2197,7 @@ exports[`templateAppDir should not transform a client component if there are no 
 /* 
         Another comment before
       */
-\\"use client\\";
+"use client";
 
 export default function Component() {
   return <h1>Should not convert this component</h1>;
@@ -2211,7 +2211,7 @@ exports[`templateAppDir should not transform a client component if there are no 
 /* 
         Another comment before
       */
-\\"use client\\";
+"use client";
 
 export default function Component() {
   return <h1>Should not convert this component</h1>;
@@ -2225,7 +2225,7 @@ exports[`templateAppDir should not transform a client component if there are no 
 /* 
         Another comment before
       */
-\\"use client\\";
+"use client";
 
 export default function Component() {
   return <h1>Should not convert this component</h1>;
@@ -2234,45 +2234,45 @@ export default function Component() {
 `;
 
 exports[`templateAppDir should not transform any page outside app dir pageNoExt: /about/us/page | normalizedResourcePath: /components/about/us/page.js | appFolder: app 1`] = `
-"import useTranslation from \\"next-translate/useTranslation\\";
+"import useTranslation from "next-translate/useTranslation";
 
 export default function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should not transform any page outside app dir pageNoExt: /page | normalizedResourcePath: /components/page.js | appFolder: app 1`] = `
-"import useTranslation from \\"next-translate/useTranslation\\";
+"import useTranslation from "next-translate/useTranslation";
 
 export default function Page() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should use an empty loader fallback if doesnt have any namespaces inside locales/{lang}/\${namespace} isClientComponent: true | existLocalesFolder: false | pageNoExt: /component | normalizedResourcePath: app/component.js | appFolder: app 1`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
 
 exports[`templateAppDir should use an empty loader fallback if doesnt have any namespaces inside locales/{lang}/\${namespace} pageNoExt: /about/us/component | normalizedResourcePath: app/about/us/component.js | appFolder: app | isClientComponent: true | existLocalesFolder: false 1`] = `
-"\\"use client\\";
+""use client";
 
-import useTranslation from \\"next-translate/useTranslation\\";
+import useTranslation from "next-translate/useTranslation";
 
 export function Component() {
-  const { t, lang } = useTranslation(\\"common\\");
-  return <h1>{t(\\"title\\")}</h1>;
+  const { t, lang } = useTranslation("common");
+  return <h1>{t("title")}</h1>;
 }
 "
 `;
